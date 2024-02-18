@@ -2,6 +2,17 @@
 
 A Type safe Utility function  to rate limit requests so user cannot spam your application
 
+ ## Installation
+
+You can install this package via npm or pnpm :
+
+```bash
+npm install upstash-rate-limit
+# or
+pnpm add  upstash-rate-limit
+
+```
+
 ## Usage Example With Next js
 Before creating database request you can call `upstashRateLimit` function to throw error that you can handle on frontend to show toast notification to avoid spamming. you can also use limit (total limit ) , remaining according to your need. 
 
